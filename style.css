@@ -59,9 +59,13 @@ a {
     z-index: 2;
 }
 
-.nav__menu li:hover .burger__menu {
+.burger__menu.active {
     display: inherit;
 }
+
+/* .nav__menu li:hover .burger__menu {
+    display: inherit;
+} */
 
 .dropmenu {
     display: flex;

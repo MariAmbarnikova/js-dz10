@@ -16,3 +16,11 @@ switch (true) {
     default:
         alert("неверно введен возраст!");
 }
+
+let menuBurger = document.querySelector('.menu__right');
+let menu = document.querySelector('.burger__menu');
+
+menuBurger.addEventListener('click', function () {
+    menu.classList.toggle('active');
+}
+);
